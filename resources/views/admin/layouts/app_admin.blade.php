@@ -37,7 +37,7 @@
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Блог</a>
                         <ul class="dropdown-menu" role="menu">
                             <li class="nav-item ">
-                                <a class="nav-link" href="">Новости</a>
+                                <a class="nav-link" href="{{route('admin.category.index')}}">Категории</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="">ВСЕ</a>
