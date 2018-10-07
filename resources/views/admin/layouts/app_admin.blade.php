@@ -10,6 +10,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
+    <script src="{{ asset('/vendor/unisharp/laravel-ckeditor/ckeditor.js')}}"></script>
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
@@ -40,7 +41,7 @@
                                 <a class="nav-link" href="{{route('admin.category.index')}}">Категории</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="">ВСЕ</a>
+                                <a class="nav-link" href="{{route('admin.article.index')}}">Новости</a>
                             </li>
                         </ul>
                     </li>
